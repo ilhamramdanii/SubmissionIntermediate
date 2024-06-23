@@ -8,6 +8,7 @@ import com.dicoding.submissionintermediate.di.Injection
 import com.dicoding.submissionintermediate.ui.Register.RegisterViewModel
 import com.dicoding.submissionintermediate.ui.login.LoginViewModel
 import com.dicoding.submissionintermediate.ui.main.MainViewModel
+import com.dicoding.submissionintermediate.ui.upload.UploadViewModel
 
 class ViewModelFactory(private val repository: UserRepository) : ViewModelProvider.NewInstanceFactory() {
 
@@ -23,9 +24,9 @@ class ViewModelFactory(private val repository: UserRepository) : ViewModelProvid
             modelClass.isAssignableFrom(RegisterViewModel::class.java) -> {
                 RegisterViewModel(repository) as T
             }
-//            TmodelClass.isAssignableFrom(UploadViewModel::class.java) -> {
-//                UploadViewModel(repository) as T
-//            }
+            modelClass.isAssignableFrom(UploadViewModel::class.java) -> {
+                UploadViewModel(repository) as T
+            }
             else -> throw IllegalArgumentException("Unknown ViewModel class: " + modelClass.name)
         }
     }

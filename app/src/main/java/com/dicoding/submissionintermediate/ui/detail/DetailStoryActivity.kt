@@ -1,6 +1,5 @@
 package com.dicoding.submissionintermediate.ui.detail
 
-
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
