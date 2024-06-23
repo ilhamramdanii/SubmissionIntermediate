@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Submission Intermediate</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">Want to learn Android, iOS, Machine Learning, Cloud, Front-End, Back-End, and other IT fields? Just go to Dicoding! </string>
+    <string name="title_welcome_page">Welcome to Dicoding!</string>
+    <string name="title_signup_page">Complete your data below</string>
+    <string name="email">Email</string>
+    <string name="email_error">Email Invalid</string>
+    <string name="password">Password</string>
+    <string name="password_error">Password must contain 8 characters</string>
+    <string name="message_login_page">Enter your data first</string>
+    <string name="title_login_page">Are you ready to upgrade your skills? </string>
+    <string name="name">Name</string>
+    <string name="message_main_page">Welcome to Dicoding.</string>
+    <string name="greeting">Hello %1$s,</string>
+    <string name="logout">Log out</string>
+    <string name="photo_story">Title</string>
+    <string name="detail_description">Story description</string>
+    <string name="signup">Register\n</string>
+</resources>
+
