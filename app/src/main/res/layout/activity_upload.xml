@@ -43,7 +43,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginEnd="8dp"
-                    android:backgroundTint="@color/navy"
+                    android:backgroundTint="@color/purple"
                     android:text="Camera" />
 
                 <Button
@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginStart="8dp"
-                    android:backgroundTint="@color/navy"
+                    android:backgroundTint="@color/purple"
                     android:text="Gallery" />
             </LinearLayout>
 
@@ -77,7 +77,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="Upload"
-        android:backgroundTint="@color/navy"
+        android:backgroundTint="@color/purple"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

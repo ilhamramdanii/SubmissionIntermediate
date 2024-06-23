@@ -22,7 +22,7 @@ class CustomButton : Button {
     }
 
     private fun init() {
-        setBackgroundColor(ContextCompat.getColor(context, R.color.navy))
+        setBackgroundColor(ContextCompat.getColor(context, R.color.purple))
         setTextColor(ContextCompat.getColor(context, R.color.white))
         setPadding(16, 16, 16, 16)
     }
