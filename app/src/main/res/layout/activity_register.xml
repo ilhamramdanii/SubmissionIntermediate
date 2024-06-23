@@ -14,7 +14,8 @@
         android:contentDescription="@string/app_name"
         android:src="@drawable/image_auth"
         tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/titleTextView"
@@ -56,7 +57,8 @@
         android:layout_height="wrap_content"
         android:text="@string/email"
         tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="428dp" />
+        tools:layout_editor_absoluteY="428dp"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailEditTextLayout"
@@ -87,7 +89,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.dicoding.submissionintermediate.ui.custom.CustomButton
-        android:id="@+id/signupButton"
+        android:id="@+id/registerButton"
         android:layout_width="379dp"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
